@@ -1,12 +1,12 @@
 module.exports = ({ env }) => ({
-  host: env('HOST', '0.0.0.0'),
+  host: '0.0.0.0',
   port: env.int('PORT', 1337),
+  url: 'https://strapi-mastery.onrender.com',
   app: {
     keys: env.array('APP_KEYS'),
   },
   webhooks: {
     populateRelations: env.bool('WEBHOOKS_POPULATE_RELATIONS', false),
   },
-  url: env('PUBLIC_URL'),
-  allowedHosts: [env('PUBLIC_URL').replace(/^https?:\/\//, '')], // ← removes https://
+  allowedHosts: ['strapi-mastery.onrender.com'], // ← Force allow
 });
