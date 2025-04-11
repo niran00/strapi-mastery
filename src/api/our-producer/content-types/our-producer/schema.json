@@ -1,0 +1,22 @@
+{
+  "kind": "singleType",
+  "collectionName": "our_producers",
+  "info": {
+    "singularName": "our-producer",
+    "pluralName": "our-producers",
+    "displayName": "our_producer"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "heading_title": {
+      "type": "string"
+    },
+    "producers": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.producer"
+    }
+  }
+}

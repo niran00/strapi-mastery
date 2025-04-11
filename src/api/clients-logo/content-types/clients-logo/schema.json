@@ -1,0 +1,22 @@
+{
+  "kind": "singleType",
+  "collectionName": "clients_logos",
+  "info": {
+    "singularName": "clients-logo",
+    "pluralName": "clients-logos",
+    "displayName": "clients_logo"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "heading_title": {
+      "type": "string"
+    },
+    "logos": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.logos"
+    }
+  }
+}

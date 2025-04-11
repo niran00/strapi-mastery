@@ -1,0 +1,23 @@
+{
+  "kind": "singleType",
+  "collectionName": "video_productions",
+  "info": {
+    "singularName": "video-production",
+    "pluralName": "video-productions",
+    "displayName": "video_production",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "heading_title": {
+      "type": "string"
+    },
+    "project": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.video"
+    }
+  }
+}

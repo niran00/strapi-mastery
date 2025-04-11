@@ -1,0 +1,31 @@
+{
+  "kind": "singleType",
+  "collectionName": "our_processes",
+  "info": {
+    "singularName": "our-process",
+    "pluralName": "our-processes",
+    "displayName": "Our_process"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "section_title": {
+      "type": "string"
+    },
+    "section_description": {
+      "type": "blocks"
+    },
+    "button_text": {
+      "type": "string"
+    },
+    "button_url": {
+      "type": "string"
+    },
+    "process": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.process"
+    }
+  }
+}

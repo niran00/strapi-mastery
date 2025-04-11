@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_shared_logos",
+  "info": {
+    "displayName": "Logos"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "src": {
+      "type": "string"
+    }
+  }
+}

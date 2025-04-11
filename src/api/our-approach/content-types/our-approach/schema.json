@@ -1,0 +1,22 @@
+{
+  "kind": "singleType",
+  "collectionName": "our_approaches",
+  "info": {
+    "singularName": "our-approach",
+    "pluralName": "our-approaches",
+    "displayName": "Our approach"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Approach": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.approach-block"
+    }
+  }
+}

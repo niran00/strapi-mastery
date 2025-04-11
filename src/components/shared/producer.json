@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_shared_producers",
+  "info": {
+    "displayName": "Producer"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "role": {
+      "type": "string"
+    },
+    "photo": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "bio": {
+      "type": "blocks"
+    }
+  }
+}
