@@ -7,4 +7,6 @@ module.exports = ({ env }) => ({
   webhooks: {
     populateRelations: env.bool('WEBHOOKS_POPULATE_RELATIONS', false),
   },
+  url: env('PUBLIC_URL'),
+  allowedHosts: [env('PUBLIC_URL').replace(/^https?:\/\//, '')], // ← removes https://
 });
